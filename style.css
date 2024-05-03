@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+.esas{
+    width:min-content;
+    min-height: 150px;
+    background-color: white;
+    padding: 40px;
+    margin: 0 auto;
+}
+.esas_1{
+    display: flex;
+}
+.add{
+    background-color: blueviolet;
+    border-radius: 2px;
+    border: 0;
+    padding: 3px 5px;
+}
+i{
+    color: white;
+    font-weight: bolder ;
+}
+ul{
+    padding: 0;
+}
+ul li{
+    background-color: darkgray;
+    list-style-type: none;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+.delete-btn {
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+}
+.esas_2{
+    display: flex;
+    justify-content: flex-end;
+}
